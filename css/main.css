@@ -1,0 +1,936 @@
+header nav{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 27px 0px;
+    position: relative;
+    top: 0px;
+    left: 10%;
+    position:fixed;
+    z-index: 105156;
+    background-color: white;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight:lighter;
+}
+header nav .nav-lt{
+    width: 50%;
+}
+header nav .nav-lt a{
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight:bold;
+    color: rgb(85, 84, 84);
+}
+header nav .nav-lt span{
+    color: rgb(250, 120, 73);
+    font-size: 25px;
+}
+header nav .nav-rt{
+    width: 50%;
+display: flex;
+justify-content: space-between;
+margin: auto;
+}
+header nav .nav-rt .title{
+    display: none;
+}
+header nav .nav-rt .ch5 a{
+color: rgb(250, 120, 73);
+}
+header nav .nav-rt .ch6  a{
+    color: rgb(236, 36, 63);
+    font-weight: bold;
+}
+.main{
+    text-align: center;
+    padding-top: 75px;
+    background-image: url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.main .title h1{
+    font-size: 50px;
+    font-family:cursive;
+    color: rgb(250, 120, 73);
+}
+.main .title p{
+    font-size: 25px;
+    color: rgb(114, 113, 113);
+    margin-top: 20px;
+}
+
+.main .back{
+    width:55%;
+    margin: auto;
+    padding-top: 35px;
+}
+.main .back img{
+    width: 100%;
+}
+.main .get {
+    margin-top: 30px;
+}
+.main .get a{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: rgb(250, 120, 73);
+    padding: 12px 45px;
+    border: solid 2px orangered;
+    border-radius: 30px;
+    transition: 1s;
+}
+.main .get a:hover{
+    background-color: rgb(250, 120, 73) ;
+    color: white;
+}
+.main .store {
+    padding: 30px 0px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.main .store a {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+    transition: 0.5 s;
+}
+.main .store a:hover {
+    color:rgb(250, 120, 73) ;
+}
+.main .store p{
+    margin:10px 30px ;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.main2{
+    text-align: center;
+    padding-top: 90px;
+}
+.main2 h1{
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom:125px;
+    color: rgb(63, 62, 62);
+    letter-spacing: 3px;
+}
+.main2 .pa {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.main2 .pa .chi{
+    width: 42%;
+    transition: all 1s;
+}
+.main2 .pa .chi:hover{
+    box-shadow: 0px 0px 50px rgb(206, 178, 231);
+}
+.main2 .pa .chi img{
+    width: 65px;
+    margin-top: 50px;
+} 
+.main2 .pa .chi h2{
+    font-size: larger;
+    margin: 35px 0px;
+}
+.main2 .pa .chi p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 35px 0px;
+}
+.main3{
+    margin-top: 250px;
+    text-align: center;
+    padding-top: 90px;
+}
+.main3  h1{
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(63, 62, 62);
+    letter-spacing: 3px;
+}
+.main3 p{
+    margin-bottom:30px ;
+    color: rgb(138, 138, 138);
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+
+.main3 .pa2 {
+    display:flex  ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main3 .pa2 .chi {
+    margin: 50px 0px;
+}
+.main3 .pa2 .chi:hover{
+    box-shadow: 0px 0px 50px rgb(206, 178, 231);
+}
+
+.main3 .pa2 .chi img {
+    width: 65px;
+    margin: 25px 0px;
+}
+.main3 .pa2 .chi h3 {
+font-size: larger;
+margin: 25px 0px;
+}
+.main3 .pa2 .chi1{
+    width: 30%;
+}
+.main3 .pa2 .chi2{
+    width: 40%;
+}
+.main4 {
+    text-align: center;
+    padding-top: 90px;
+}
+.main4 h1{
+    margin: 25px 0px;
+    font-size: 50px;
+    color: rgb(63, 62, 62);
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.main4 .pa3{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+.main4 .pa3 .chi {
+    width: 28%;
+    margin: 35px 0px;
+    transition: 1s;
+}
+.main4 .pa3 .chi:hover{
+    box-shadow: 0px 0px 50px rgb(206, 178, 231);
+}
+.main4 .pa3 .chi h1 {
+    font-size: large;
+    margin-bottom: 0px;
+}
+.main4 .pa3 .chi h3{
+    margin-bottom: 50px;
+}
+.contact {
+    display: flex;
+    flex-wrap:wrap;
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+    padding-top: 83px;
+}
+.contact .center{
+    text-align: center;
+    width:80%; 
+    padding-bottom: 20px;
+}
+.contact .center h1{
+    font-size: 50px;
+    margin-bottom: 35px;
+    font-weight:lighter ;
+    color: rgb(100, 99, 100);
+}
+.contact .lt{
+    width: 45%;
+}
+.contact .lt .title{
+    display: flex;
+    text-align: left;
+    margin-top: 45px;
+}
+.contact .lt .title h1{
+    margin-right:20px ;
+    font-size: 40px;
+    color: rgb(250, 120, 73);
+}
+.contact .lt .title p {
+    margin-top: 12.5px;
+    letter-spacing: 2px;
+}
+.contact .lt .map{
+    width: 100%;
+    margin-top: 50px;
+}
+.contact .lt .map iframe{
+    width: 65%;
+}
+.contact .rt {
+    width: 45%;
+    margin-bottom:65px;
+}
+.contact .rt .inp{
+    width: 100%;
+}
+.contact .rt .inp input{
+    width:90%;
+    border: 1px solid;
+    font-size: 15px;
+    padding:12.5px 9px;
+    outline: none;
+    margin-top:15px;
+}
+.contact .rt .inp input:focus{
+    border: 1px solid rgb(250, 120, 73);
+    transition: 0.5s;
+}
+
+.contact .rt textarea{
+    width:90%;
+    margin-top: 15px;
+    font-size: 15px ;
+    padding: 9px 9px;
+    outline: none;
+    border: 1px solid;
+}
+.contact .rt textarea:focus{
+    border: 1px solid rgb(250, 120, 73);
+    transition: 0.5s;
+}
+.contact .rt .send{
+ width: 100%;
+ text-align: center;
+}
+.contact .rt .send input{
+    padding: 15px 35px;
+   color: white;
+   background-color:rgb(250, 120, 73) ; 
+   border: 0px solid;
+   outline: 0px;
+   margin-top:15px;
+}
+.contact .rt .send input:hover{
+    background-color:rgb(107, 219, 132) ; 
+    cursor: pointer;
+}
+
+.line{
+    margin:30px 0px;
+    width: 100%;
+    height: 15px;
+    background-color: rgb(44, 44, 44);
+}
+footer{
+    text-align: center;
+    padding-bottom: 35px;
+}
+footer p{
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+footer a{
+text-decoration: none;
+color:rgb(250, 120, 73) ;
+margin-left: 10px;
+font-size: larger;
+}
+
+
+
+/* sign in  */
+.section{
+    text-align: center;
+    width: 100;
+    padding:100px 0px;
+}
+.section .parent{
+    width: 55%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: 0.5px solid rgb(155, 155, 155);
+}
+.section .parent .head {
+    width: 100%;
+    background-color: rgba(188, 146, 240,0.25);
+    border-radius: 10px 10px 0 0;
+}
+.section .parent .head h1{
+    font-size: larger;
+    padding: 15px 0px;
+}
+.section .parent hr{
+color: rgb(155, 155, 155) ;
+}
+.section .parent .body{
+    text-align: center;
+    width: 100%;
+}
+.section .parent .body .inp {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.section .parent .body .inp label{
+    width: 33.5%;
+    text-align: right;
+    padding:12.5px 9px;
+    margin-top:15px;
+    font-size: large;
+    font-weight: bold;
+}
+.section .parent .body .inp .inp1{
+    width:  63.5%;
+    text-align: left;
+}
+.section .parent .body .inp .inp1 input{
+    width:65%;
+    border: 1px solid;
+    font-size: 15px;
+    padding:12.5px 9px;
+    outline: none;
+    margin-top:15px;
+    border-radius: 10px;
+    outline:0 ;
+    border: 0.5px solid rgb(155, 155, 155);
+}
+.section .parent .body .inp .inp1 input:focus{
+    box-shadow: 0 0 10px blue;
+    transition: 0.5s;
+}
+.section .parent .body .inp3 {
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    justify-content:space-between;
+    margin-top: 15px;
+
+}
+.section .parent .body .inp3  input{
+    width: 19px;
+    height: 18px;
+}
+.section .parent .body .inp3  input:focus{
+    box-shadow: 0 0 10px blue;
+    transition: 0.5s;
+}
+.section .parent .button{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+    margin: 35px 0px 35px 15%;
+}
+.section .parent .button  button{
+    width: 125px;
+    height: 50px;
+    background-color: rgb(250, 120, 73) ;
+    border: 0px solid ;
+    border-radius: 20px;
+    color: white;
+    font-size: larger;
+}
+.section .parent .button  button:hover {
+    cursor: pointer;
+    background-color: rgb(43, 75, 255);
+    transition: 0.5s;
+}
+
+.section .parent .button a{
+    margin-left: 50px;
+    margin-top: 17.5px;
+    color: black;
+}
+.section .parent .button a:hover{
+    color:rgb(43, 75, 255) ;
+    transition: 0.5s;
+}
+.section .parent .body .inp .inp2{
+    width:40%;
+    font-size: larger;
+    padding-right: 22%;
+
+}
+.section .parent .body .inp .inp2 input{
+    width: 35px;
+    margin: 34px 0px ;
+}
+
+.section .parent .button1{
+    width:  70;
+    text-align: center;
+    justify-content: center;
+    justify-content: end;
+    margin: 20px 0px 20px 9%;
+}
+.section .parent .button1  button{
+    width: 125px;
+    height: 50px;
+    background-color: rgb(250, 120, 73) ;
+    border: 0px solid ;
+    border-radius: 20px;
+    color: white;
+    font-size:small;
+}
+.section .parent .button1  button:hover {
+    cursor: pointer;
+    background-color: rgb(43, 75, 255);
+    transition: 0.5s;
+}
+.section .parent .button1  .but{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(250, 120, 73) ;
+    border: 0px solid ;
+    border-radius: 20px;
+    color: white;
+    font-size:smaller;
+}
+.section .parent .button1  button:hover {
+    cursor: pointer;
+    background-color: rgb(43, 75, 255);
+    transition: 0.5s;
+}
+
+@media(max-width:950px){
+    header nav{
+    padding: 15px 0px;
+}
+header nav a{
+    font-size: 15px;
+}
+header nav .nav-lt{
+    width: 40%;
+}
+header nav .nav-rt{
+    width: 60%;
+}
+
+}
+@media(max-width:720px){
+    header nav{
+        padding: 10px 0px;
+    }
+    header nav a{
+        font-size: 13px;
+    }
+    header nav .nav-lt a{
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight:bold;
+        color: rgb(85, 84, 84);
+    }
+    header nav .nav-lt span{
+        color: rgb(250, 120, 73);
+        font-size: 20px;
+    }
+    header nav .nav-lt{
+        width: 30%;
+    }
+    header nav .nav-rt{
+        width: 70%;
+    }
+    .main{
+        padding-top: 65px;
+    }
+    .main .title h1{
+        font-size:35px;
+    }
+    .main .title p{
+        font-size: 17.5px;
+        margin-top: 12.5px;
+    }
+    
+    .main .back{
+        padding-top: 25px;
+    }
+    .main .get {
+        margin-top: 25px;
+    }
+    .main .get a{
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        color: rgb(250, 120, 73);
+        padding: 10px 30px;
+    }
+
+    .main .store {
+        padding: 20px 0px;
+        margin-top: 15px;
+    }
+    .main .store p{
+        margin:8px 25px ;
+        font-size: 13px;
+    }
+    .main2{
+        padding-top: 30px;
+    }
+    .main2 h1{
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        margin-bottom:35px;
+    }
+    .main2 .pa {
+        flex-wrap: wrap;
+    }
+    .main2 .pa .chi{
+        width: 80%;
+    }
+    .main2 .pa .chi img{
+        width: 65px;
+        margin-top: 10px;
+    } 
+    .main2 .pa .chi h2{
+        margin: 10px 0px;
+    }
+    .main2 .pa .chi p{
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin: 35px 0px;
+    }
+    .main3{
+        margin-top: 0px;
+        padding-top: 40px;
+    }
+    .main3  h1{
+        font-size: 35px;
+    }
+    .main3 p{
+        margin-bottom:0px ;
+    }
+    .main3 .pa2 {
+        display:flex  ;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main3 .pa2 .chi {
+        width: 30%;
+        margin: 20px 0px;
+    }
+    .main3 .pa2 .chi h3 {
+    font-size: medium;
+    margin: 12.5px 0px;
+    }
+    .main3 .pa2 .chi1{
+        width: 33%;
+    }
+    .main3 .pa2 .chi2{
+        width: 33%;
+    }
+    .main4 {
+        padding-top: 35px;
+    }
+    .main4 h1{
+        margin: 28px 0px;
+        font-size: 50px;
+    }
+    .main4 .pa3{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main4 .pa3 .chi {
+        width: 33%;
+        margin: 15px 0px;
+    }
+    .main4 .pa3 .chi h1 {
+        margin-bottom: 2px;
+    }
+    .main4 .pa3 .chi h3{
+        font-size: small;
+        margin-bottom: 10px;
+    }
+    .contact {
+        display: flex;
+        flex-wrap:wrap;
+        width: 90%;
+        padding-top: 30px;
+        justify-content: space-around;
+    }
+    .contact .center{
+        text-align: center;
+        width:80%; 
+        padding-bottom: 5px;
+    }
+    .contact .center h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .contact .lt{
+        width: 45%;
+    }
+    .contact .lt .title{
+        margin-top: 25px;
+    }
+    .contact .lt .title h1{
+        margin-right:10px ;
+        font-size: 25px;
+    }
+    .contact .lt .title p {
+        font-size: small;
+        margin-top: 4px;
+        letter-spacing: 1px;
+    }
+    .contact .lt .map{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .contact .lt .map iframe{
+        width: 100%;
+    }
+    .contact .rt {
+        width: 45%;
+        margin-bottom:35px;
+    }
+    .contact .rt .inp{
+        width: 100%;
+    }
+    .contact .rt .inp input{
+        width:90%;
+        border: 1px solid;
+        font-size: 12px;
+        padding:10px 9px;
+    }    
+    .contact .rt textarea{
+        width:90%;
+        margin-top: 15px;
+        font-size: 12px ;
+        padding: 5px 9px;
+    }
+    .contact .rt .send input{
+        padding: 10px 25px;
+    }
+    
+    .line{
+        margin:15px 0px;
+        height: 10px;
+    
+    }
+    footer{
+        padding-bottom: 20px;
+    }
+    footer p{
+        font-size: small;
+    }
+    footer a{
+    margin-left: 5px;
+    font-size: medium;
+    }
+}
+@media(max-width:540px){
+    header nav{
+        width: 100%;
+    }
+   
+    header nav .nav-lt a{
+        font-size: 35px;
+    }
+    header nav .nav-lt span{
+        font-size: 25px;
+    }
+    header nav .nav-lt{
+        width:80%;
+        text-align: center;
+    }
+    header nav .nav-rt .child{
+        display: none;
+    }
+    header nav .nav-rt .title{
+        display: block;
+    }
+    header nav .nav-rt{
+        width:20%;
+    }
+    .main{
+        background-position:center;
+        padding-top: 65px;
+        height: auto;
+    }
+    .main .title h1{
+        font-size:30px;
+    }
+    .main .title p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    
+    .main .back{
+        padding-top: 10px;
+    }
+    .main .get {
+        margin-top: 15px;
+    }
+    .main .get a{
+        padding: 8px 25px;
+    }
+
+    .main .store p{
+        margin:8px 20px ;
+        font-size: 11px;
+    }
+    .main2{
+        padding-top: 30px;
+    }
+    .main2 h1{
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        margin-bottom:35px;
+    }
+    .main2 .pa {
+        flex-wrap: wrap;
+    }
+    .main2 .pa .chi{
+        width: 80%;
+    }
+    .main2 .pa .chi img{
+        width: 65px;
+        margin-top: 10px;
+    } 
+    .main2 .pa .chi h2{
+        margin: 10px 0px;
+    }
+    .main2 .pa .chi p{
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin: 35px 0px;
+    }
+    .main3{
+        margin-top: 0px;
+        padding-top: 40px;
+    }
+    .main3  h1{
+        font-size: 25px;
+    }
+    .main3 p{
+        margin-bottom:0px ;
+    }
+    .main3 .pa2 {
+        display:flex  ;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main3 .pa2 .chi {
+        width: 50%;
+        margin: 20px 0px;
+    }
+    .main3 .pa2 .chi img {
+        width: 65px;
+        margin: 12.5px 0px;
+    }
+    .main3 .pa2 .chi h3 {
+    font-size: medium;
+    margin: 12.5px 0px;
+    }
+    .main3 .pa2 .chi1{
+        width: 50%;
+    }
+    .main3 .pa2 .chi2{
+        width: 50%;
+    }
+    .main4 {
+        padding-top: 35px;
+    }
+    .main4 h1{
+        margin: 20px 0px;
+        font-size: 40px;
+    }
+    .main4 .pa3{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main4 .pa3 .chi {
+        width: 45%;
+        margin: 15px 0px;
+    }
+    .main4 .pa3 .chi h1 {
+        margin-bottom: 2px;
+    }
+    .main4 .pa3 .chi h3{
+        font-size: small;
+        margin-bottom: 10px;
+    }
+    .contact {
+        display: flex;
+        flex-wrap:wrap;
+        width: 90%;
+        padding-top: 30px;
+    }
+    .contact .center{
+        text-align: center;
+        width:80%; 
+        padding-bottom: 5px;
+    }
+    .contact .center h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .contact .lt{
+        width: 90%;
+    }
+    .contact .lt .title{
+        margin-top: 25px;
+    }
+    .contact .lt .title h1{
+        margin-right:10px ;
+        font-size: 25px;
+    }
+    .contact .lt .title p {
+        font-size: small;
+        margin-top: 4px;
+        letter-spacing: 1px;
+    }
+    .contact .lt .map{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .contact .lt .map iframe{
+        width: 100%;
+    }
+    .contact .rt {
+        width: 90%;
+        margin-bottom:35px;
+    }
+    .contact .rt .inp{
+        width: 100%;
+    }
+    .contact .rt .inp input{
+        width:90%;
+        border: 1px solid;
+        font-size: 12px;
+        padding:10px 9px;
+    }    
+    .contact .rt textarea{
+        width:90%;
+        margin-top: 15px;
+        font-size: 12px ;
+        padding: 5px 9px;
+    }
+    .contact .rt .send input{
+        padding: 10px 25px;
+    }
+    
+    .line{
+        margin:15px 0px;
+        height: 8px;
+    
+    }
+    footer{
+        padding-bottom: 20px;
+    }
+    footer p{
+        font-size: small;
+    }
+    footer a{
+    margin-left: 5px;
+    font-size: medium;
+    }
+
+}
